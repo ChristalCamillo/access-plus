@@ -1,0 +1,26 @@
+{
+    "manifest_version": 4,
+    "name": "Acess+",
+    "version": "1.0",
+    "description": "Analise páginas ativas e forneça melhorias com base nas diretrizes WCAG.",
+    "host_permissions":["<all_urls>"],
+    "permissions": [
+      "activeTab",
+      "scripting",
+      "tabs"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+      }
+    },
+    "icons": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
+  

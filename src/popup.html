@@ -1,0 +1,24 @@
+---
+permalink: "/popup.html"
+---
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acess+</title>
+  <link rel="stylesheet" href="/popup.css">
+</head>
+<body>
+  <img src="/icon.png" alt="Acess+" class="logo">
+  <div id="results" class="loading">Analisando HTML... Por favor, aguarde.</div>
+  <div class="buttons-container">
+    <button id="readButton">Ler Sugestões</button>
+    
+    <button id="copyButton">Copiar Sugestões</button>
+  </div>
+  <script src="/popup.js"></script>
+  <input type="hidden" value="{{env.openAiKey}}" id="openAiKey">
+</body>
+</html>
